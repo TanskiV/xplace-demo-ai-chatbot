@@ -1,0 +1,15 @@
+Synthetic offline order-support reference (MockProvider).
+You: status
+Bot: Which order? Use an ID like ORD-101.
+You: ORD-101
+Bot: ORD-101: delivered.
+You: Can I return it?
+Bot: ORD-101: eligible for a return in this fixture.
+You: /reset
+Bot: Conversation reset. Ask for order status or return eligibility.
+You: ORD-102
+Bot: Would you like status or return eligibility?
+You: status
+Bot: ORD-102: shipped.
+You: status ORD-201
+Bot: Order unavailable for this account.
